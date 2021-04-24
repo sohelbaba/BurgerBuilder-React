@@ -1,0 +1,32 @@
+.BuildControls{
+    width: 90%;
+    background-color: #fcfbfb;
+    border: 1px solid #eee;
+    display: block;
+    flex-flow: column;
+    align-items: center;
+    box-shadow: 0 2px 1px #ccc;
+    margin: 10px auto;
+    padding: 10px 0;
+}
+
+.BuildControls .orderButton{
+    border:1px solid  #8F5E1E;
+    box-shadow: 0 2px 4px #ccc;
+    color: black;
+    width: 20%;
+    margin: 15px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.BuildControls .orderButton:hover{
+    background-color: #8F5E1E;
+    color: aliceblue;
+}
+
+@media(max-width:800px){
+    .BuildControls .orderButton{
+        width: 28%;
+    }
+}

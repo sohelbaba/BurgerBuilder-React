@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "ingredents": {
+      ".read": "true",
+      ".write": "true"
+    },
+    "order": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    }
+  }
+}

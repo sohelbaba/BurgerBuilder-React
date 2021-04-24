@@ -1,0 +1,60 @@
+.container {
+    width: 30%;
+    display: block;
+    margin: 15px auto;
+    border: 1px solid #ccc;
+    box-shadow: 2px 6px #eee;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+
+form input{
+    display: block;
+    padding: 8px;
+    width: 80%;
+    margin: 10px;
+}
+
+.error{
+    width: 96%;
+    padding: 8px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.checkAuth{
+    padding: 8px;
+    margin: 10px;
+    width: 30%;
+    display: block;
+    border: 1px solid saddlebrown;
+    color:black;
+}
+
+.checkAuth:hover{
+    background-color: peru;
+    color: azure;
+    cursor: pointer;
+}
+
+@media(max-width:500px){
+    .container {
+    width: 80%;
+    display: block;
+    margin: 15px auto;
+    border: 1px solid #ccc;
+    box-shadow: 2px 6px #eee;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    }
+    .checkAuth{
+    padding: 8px;
+    margin: 10px;
+    width: 50%;
+    display: block;
+    border: 1px solid saddlebrown;
+    color:black;
+}
+
+}

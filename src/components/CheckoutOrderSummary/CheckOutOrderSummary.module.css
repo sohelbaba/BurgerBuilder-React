@@ -1,0 +1,56 @@
+.Ordersummary{
+    width: 100%;
+    margin: auto;
+}
+
+.image{
+    width: 25%;
+    height: 10%;
+}
+
+.cancle{
+    border: 1px solid #D39952;
+    box-shadow:0 2px 4px #ccc;
+    color:black;
+    width: 10%;
+    margin: 0 5px 0 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.continue{
+    border: 1px solid #D39952;
+    box-shadow:0 2px 4px #ccc;
+    color:black;
+    width: 10%;
+    margin: 0 5px 0 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+@media(max-width:500px){
+    .image{
+    width: 65%;
+    height: 10%;
+    }
+
+    .cancle{
+    border: 1px solid #D39952;
+    box-shadow:0 2px 4px #ccc;
+    color:black;
+    width: 20%;
+    margin: 0 5px 0 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.continue{
+    border: 1px solid #D39952;
+    box-shadow:0 2px 4px #ccc;
+    color:black;
+    width: 20%;
+    margin: 0 5px 0 0;
+    padding: 5px;
+    cursor: pointer;
+}
+}   

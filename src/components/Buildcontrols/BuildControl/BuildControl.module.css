@@ -1,0 +1,78 @@
+.BuildControl{
+    width: 100%; 
+    display: inline-block;
+    margin: 5px auto; 
+    /* padding: 5px;  */
+    /* background-color: #8F5E1E; */
+    /* color: white; */
+}
+
+.Label {
+    padding: 4px;
+    /* font-weight: bold; */
+    width: 80px;
+    box-shadow: 0 2px 4px #ccc;
+    /* background-color: #e27b36; */
+    display: inline-block;
+    color: black;
+    border: 1px solid #ccc;
+    margin: 0 5px 0 0;
+    /* margin: 50px 5px 0 0; */
+}
+
+.BuildControl .Less {  
+    /* background-color: #D39952; */
+    border: 1px solid #D39952;
+    box-shadow: 0 2px 4px #ccc;
+    color: black;
+    width: 10%;
+    margin: 0 5px 0 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.BuildControl .More {
+    border:1px solid  #8F5E1E;
+    box-shadow: 0 2px 4px #ccc;
+    color: black;
+    width: 10%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.BuildControl .Less:hover, .BuildControl .Less:active {  
+    background-color: #DAA972;
+     border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.BuildControl .More:hover,.BuildControl .More:active {
+    background-color: #99703F;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@media(max-width:500px){
+    .BuildControl .Less {  
+    /* background-color: #D39952;  */
+    border: 1px solid #D39952;
+    box-shadow: 0 2px 4px #ccc;
+    color: black; 
+    width: 20%;
+    margin: 0 5px 0 0;
+    padding: 5px;
+    cursor: pointer; 
+}
+
+.BuildControl .More {
+    border:1px solid  #8F5E1E;
+    box-shadow: 0 2px 4px #ccc;
+    color: black;
+    width: 20%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+}

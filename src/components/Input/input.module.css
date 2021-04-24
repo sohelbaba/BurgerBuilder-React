@@ -1,0 +1,39 @@
+.form{
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #eee;
+    box-shadow: 2px 6px #ccc;
+    display: block;
+    padding: 8px;
+    width: 60%;
+    margin: 10px;
+
+}
+
+.inputElement{
+    width: 40%;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin: 10px auto;
+    padding: 5px;
+    background-color: white;
+    color: black;
+}
+
+.inputElement:focus{
+    background-color: #ccc;
+}
+
+@media(max-width:500px){
+    .inputElement{
+    width: 80%;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin: 10px auto;
+    padding: 5px;
+    background-color: white;
+    color: black;
+}
+}
